@@ -7,4 +7,4 @@ A sample code snippet for demostrating docker with non root user access
 
     docker run -p 8080:8080 docker-with-non-root
 
-    docker run -p 8080:8080 --user demo:demo  docker-with-non-root
+    docker run -p 8080:8080 --user non_root_user:non_root_user  docker-with-non-root
